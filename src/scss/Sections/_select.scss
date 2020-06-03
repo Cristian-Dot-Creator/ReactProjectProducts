@@ -1,0 +1,68 @@
+.select__main__container {
+    padding: 15px;
+    height: 30px;
+    // position: absolute;
+    top: 50px;
+}
+
+.select__btn {
+    padding: 8px 12px;
+    color: #333333;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd; 
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.card__container h1 {
+    text-align: center;
+    font-size:30px;
+    font-family:Audiowide; //lookup
+}
+
+
+
+.card__container {
+    display: -webkit-box;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    flex-flow:row wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+}
+.card__container div {
+    width: 500px;
+    margin: .5vw;
+}
+
+
+
+.card__contatiner__image {
+   width: 200px;
+  height: auto;
+  
+}
+
+ button {
+    padding: 8px 12px;
+    color: #fff;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    border: 1px solid #dddddd; 
+    cursor: pointer;
+    border-radius:5px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .card__container div  {
+        margin: 0;
+    }
+    .card__container {
+        padding: 0;
+        width: 80%;
+    }
+
+}

@@ -1,0 +1,236 @@
+.heading {
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.row   {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow:wrap;
+}
+
+
+.card {
+    width: 20%;
+    background: #fff;
+    border:1px solid #ccc;
+    margin-bottom:50px;
+    transition: 0.3s;
+}
+
+.card-header {
+    text-align: center;
+    padding: 50px 10px;
+    background:linear-gradient(to right, #ff416c #ff4b2b);
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 1.5rem;
+}
+
+
+
+//prodcuts and images
+//Top
+
+
+.card__header-Drill {
+    background-image: url(../../dist/img/Images/Drills/portercable.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+
+.card_header-Hammer {
+    background-image: url(../../dist/img/Images/Hammers/Stiletto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+
+.card_header-Wrench {
+    background-image: url(../../dist/img/Images/Wrenches/GearWrench.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    background-clip: content-box;
+    
+}
+
+.card_header-ScrewDrivers {
+
+    background-image: url(../../dist/img/Images/ScrewDrivers/Stanley.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    background-position: center;
+    
+}
+
+
+//Mid 
+
+.card_header-PowerTool {
+    background-image: url(../../dist/img/Images/Drills/ryobi-power-drills-p215k-64_1000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+
+
+.card__header-CheapHammer {
+    background-image: url(../../dist/img/Images/Hammers/Stanley.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+
+
+.card__header-openWrench {
+    background-image: url(../../dist/img/Images/Wrenches/91nbSkAdVyL._AC_SL1500_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+
+
+//Low 
+
+
+.card__header-topRateDrill {
+    background-image: url(../../dist/img/Images/Drills/Milwaukee.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+.card__header-TopRatedHammer {
+    background-image: url(../../dist/img/Images/Hammers/Kobalt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+.card__header-TopRatedWrench {
+    background-image: url(../../dist/img/Images/Wrenches/CraftMans.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+
+.card__header-TopRatedScrewDriver {
+    background-image: url(../../dist/img/Images/ScrewDrivers/CraftSMan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    background-position: center;
+    
+}
+
+//Bottom
+.card__header-LatestDrill {
+    background-image: url(../../dist/img/Images/Drills/dewalt-hammer-drills-dcd785c2-64_1000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+.card__header-LatestScrewDriver {
+    background-image: url(../../dist/img/Images/ScrewDrivers/Dewalt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    background-position: center;
+    
+}
+
+.card__header-LatestWrench {
+    background-image: url(../../dist/img/Images/Wrenches/Kobalt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    
+}
+
+
+
+
+
+
+
+
+
+.card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-body .btn {
+    display:block;
+    color:#fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    margin-top:30px;
+    text-decoration:none;
+    padding: 10px 5px;
+    border-radius: 4px;
+}
+
+.card-body .btn:hover {
+    transform:scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0,0,0, 0.25);
+}
+
+.card-body .btn:active {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.card:hover{
+    transform:scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0,0,0, 0.25);
+}
+
+// Responsive media queries 
+
+@media screen and (max-width:1000px) {
+        .card {
+            width: 40%;
+        }
+}
+
+@media screen and (max-width:620px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .heading {
+        padding:20px;
+        font-size: 20px;
+    }
+
+
+    .card {
+        width: 80%;
+    }
+}
+
+
+
+
+
+

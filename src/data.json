@@ -1,0 +1,149 @@
+[
+
+{
+    "category":"Drill", "id":1, 
+    "productname": "PorterCable", 
+    "description": "Porter-Cable is an American company that manufactures power tools." , 
+    "cost": "$139.00",
+    "price": "Highest",
+    "image":"/images/Drills/portercable.webp"
+
+},
+{
+    "category":"Drill", "id":1, 
+    "productname": "Dewalt", 
+    "description": "DeWalt is an American worldwide brand of power tools and hand tools the construction, manufacturing and woodworking industries." , 
+    "cost": "$149.00",
+    "price": "Highest",  
+    "image":"/images/Drills/dewalt-hammer-drills-dcd785c2-64_1000.jpg"
+
+},
+{
+    "category":"Drill", "id":1, 
+    "productname": "Milwaukee", 
+    "description": "The Milwaukee Electric Tool Corporation is an American company that develops, manufactures and markets power tools. " , 
+    "cost": "$89.00",
+    "price": "high",  
+    "image":"/images/Drills/Milwaukee.webp"
+
+},
+{
+    "category":"Drill", "id":1, 
+    "productname": "PorterCable", 
+    "description": "Ryobi Limited is a Japanese manufacturer of components for the automobile, electronics, and telecommunications industries" , 
+    "cost": "$80.00",
+    "price": "High",   
+    "image":"/images/Drills/ryobi-power-drills-p215k-64_1000.jpg"
+
+},
+
+{
+    "category":"Hammer", "id":1, 
+    "productname": "CRAFTSMAN", 
+    "description": "The 20oz. CRAFTSMAN fiberglass hammer is built for durability against overstriking with an added protective portion where most fiberglass hammers break. " , 
+    "cost": "$16.98", 
+    "price": "Low",  
+    "image":"/images/Hammers/CraftsMan.jpg"
+
+},
+{
+    "category":"Hammer", "id":1, 
+    "productname": "Kobalt", 
+    "description": "Kobalt 16-oz, 1-pack (single) curved claw hammer is ideal for driving and removing nails and performing general carpentry" , 
+    "cost": "$17.08", 
+    "price": "low",  
+    "image":"/images/Hammers/Kobalt.jpg"
+
+},
+{
+    "category":"Hammer", "id":1, 
+    "productname": "Stanley", 
+    "description": "Fiberglass core adds strength and durability in the handle" , 
+    "cost": "$23.90", 
+    "price": "Mid",  
+    "image":"/images/Hammers/Stanley.jpg"
+
+},
+{
+    "category":"Hammer", "id":1, 
+    "productname": "Stiletto", 
+    "description": "Lightweight 15 oz. Titanium head with milled Steel Nose piece drives like a 28 oz. Steel hammer but, with 45% less weight and 10 times less recoil shock. " , 
+    "cost": "$120.00", 
+    "price": "Highest",  
+    "image":"/images/Hammers/Stiletto.jpg"
+
+},
+{
+    "category":"Wrench", "id":1, 
+    "productname": "CRAFTSMAN", 
+    "description": "The 7 pc Metric Ratcheting Combination Wrench Set offers a number of applications from the standard bolt turning to working on specific automotive repairs" , 
+    "cost": "$48.98", 
+    "price": "Mid",  
+    "image":"/images/Wrenches/CraftMans.webp"
+
+},
+{
+    "category":"Wrench", "id":1, 
+    "productname": "GearWrench", 
+    "description": "5 degree Ratcheting box-end for tighter turns. Surface Drive provides a stronger grip on fasteners." , 
+    "cost": "$130.00", 
+    "price": "Highest",  
+    "image":"/images/Wrenches/GearWrench.jpg"
+
+},
+{
+    "category":"Wrench", "id":1, 
+    "productname": "Kobalt", 
+    "description": "Kobalt 7-Piece Ratcheting Wrench Set" , 
+    "cost": "$49.99", 
+    "price": "High",  
+    "image":"/images/Wrenches/Kobalt.jpg"
+
+},
+{
+    "category":"Wrench", "id":1, 
+    "productname": "Husky", 
+    "description": "This wrench set from Husky provides the standard sizes you could expect for applications around the house." , 
+    "cost": "$40.98", 
+    "price": "Mid",  
+    "image":"/images/Wrenches/husky.jpg"
+
+},
+{
+    "category":"ScrewDriver", "id":1, 
+    "productname": "CRAFTSMAN", 
+    "description": "DEWALT Screwdrivers have ergonomically designed quad-lobular handle design that provides maximum tip torque. " , 
+    "cost": "$19.99", 
+    "price": "low",  
+    "image":"/images/ScrewDrivers/CraftSMan.jpg"
+
+},
+{
+    "category":"ScrewDriver", "id":1, 
+    "productname": "Stanley", 
+    "description": "Diamond technology on the tip for toughness" , 
+    "cost": "$24.99 ", 
+    "price": "Mid",  
+    "image":"/images/ScrewDrivers/Stanley.jpg"
+
+},
+{
+    "category":"ScrewDriver", "id":1, 
+    "productname": "GearWrench", 
+    "description": "Ergonomic tri-lobe dual material handle provides the optimal balance of strength and efficiency" , 
+    "cost": "$68.99", 
+    "price": "High",  
+    "image":"/images/ScrewDrivers/GearWrench.jpg"
+
+},
+{
+    "category":"ScrewDriver", "id":1, 
+    "productname": "DeWalt", 
+    "description": "DEWALT Screwdrivers have ergonomically designed quad-lobular handle design that provides maximum tip torque. " , 
+    "cost": "$19.99", 
+    "price": "low",  
+    "image":"/images/ScrewDrivers/Dewalt.jpg"
+
+}
+
+]

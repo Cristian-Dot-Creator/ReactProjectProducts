@@ -1,0 +1,40 @@
+@import '../scss/Sections/select';
+@import '../scss/Sections/header';
+@import '../scss/Componets/media';
+@import '../scss/Tools/animations';
+@import '../scss/Componets/slideshow';
+@import '../scss/Sections/footer';
+@import '../scss/Componets/popup';
+@import '../scss/Tools/mixins';
+@import '../scss/Tools/helper';
+
+
+
+
+
+
+
+//Defaults Set
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,
+    body {
+        font-family:sans-serif;
+    }
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+
+    p {
+        margin: 1rem 0;
+    }
+
+}
+
+
