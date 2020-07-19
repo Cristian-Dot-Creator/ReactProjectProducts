@@ -1,9 +1,7 @@
 import React from 'react';
 import data from "../data.json"
 import Product from './card'
-import style from "../scss/main.module.scss"
-import Navbar from "../components/Navbar";
-import Footer from '../components/footer';
+import style from "../scss/main.module.scss";
 
 
 // we set equal our products
@@ -60,7 +58,6 @@ render() {
     return(
       
         <div className={style.select__main__container}>
-          <Navbar/>
             <select className={style.select__btn} onChange={evt => this.filterProducts(evt)} >
               <option value="All">All Types</option>
               <option value="Drill">Drill</option>
@@ -77,9 +74,6 @@ render() {
       </select>
         
         <div>{mappedcards}</div>
-
-
-            <Footer/>
 
         </div>
   );

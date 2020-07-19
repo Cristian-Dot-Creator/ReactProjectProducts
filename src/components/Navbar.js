@@ -1,6 +1,7 @@
 import React from 'react';
 import style from '../scss/main.module.scss';
 import Logo from "./ToolsLogo.png"
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -38,13 +39,13 @@ const divStyle = {
 
                     <ul className={style.nav_links}>
                         <li className={style.nav_link}>
-                            <a href="#">About</a>
+                            <a><Link to="/">Home</Link></a>
                         </li>
                         <li className={style.nav_link}>
-                            <a href="#">Tools</a>
+                            <a><Link to="/Products">Products</Link></a>
                         </li>
                         <li className={style.nav_link}>
-                            <a href="#">Contact</a>
+                            <a><Link to="/Contact">Contact</Link></a>
                         </li>
                     </ul>
                 </div>
