@@ -1,3 +1,5 @@
+/* hero Section Heading */
+
 .hero {
   height: 100vh;
   background-image: no-repeat bottom center;
@@ -284,6 +286,10 @@
   padding: 30px;
 }
 
+
+/* Hero Section Ends */
+
+
 .row {
   display: flex;
   flex-direction: row;
@@ -468,6 +474,10 @@
     width: 365;
   }
 }
+
+
+
+/* Footer Starts */
 footer {
   background-color: #333;
   padding: 50px;
@@ -614,10 +624,17 @@ u-margin-top-huge {
   vertical-align: middle;
   padding: 3rem 5rem;
 }
-.popup__img {
+/* .popup__img {
   display: block;
   width: 100%;
 }
+
+
+ */
+
+
+
+
 .popup__btn {
   display: block;
   color: #fff;
@@ -841,15 +858,22 @@ body body {
   background-image: url(../img/aaron-huber-KxeFuXta4SE-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50px;
+  display: block;
+  height: 250px;
  
 }
+
+/* .popup__img {
+  display: block;
+  width: 100%;
+} */
 
 .popup_img_Carpenter {
   background-image: url(../img/Carpenter-1024x683.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50px;
+  display: block;
+  height: 250px;
 }
 
 /*# sourceMappingURL=main.css.map */

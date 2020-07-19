@@ -1,11 +1,9 @@
-import React from 'react'
-import '../css/main.css'
+import React from 'react';
+import '../css/main.css';
 
 
 export default function Home() {
-    const popImg = {
-        height: '3.5rem'
-    }
+  
 
     return (
         <div>
@@ -241,7 +239,7 @@ export default function Home() {
     <div class="popup" id="popup"> 
             <div class="popup__content">
                 <div class="popup__left">
-                    <img class="popup_img_mechanic" alt="Mechanic" style={popImg}/>
+                    <img class="popup_img_mechanic" alt="Mechanic" />
                     <img class="popup_img_Carpenter"  alt="Carpenter" />
                 </div>
     

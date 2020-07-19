@@ -5,25 +5,9 @@ import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
-    
-    
 const divStyle = {
     height: '5rem',
   };
-
-    // const head = document.querySelector('.main_header');
-
-    // window.addEventListener('scroll', () => {
-    //     const scrollPos = window.scrollY;
-    //     if(scrollPos > 10) {
-    //         head.classList.add('scrolled');
-    //     } else {
-    //         head.classList.remove('scrolled');
-    //     }
-    // });
-   
-
-//this is broke ASF#
 
     return (
              <div className={style.main_header} id="backTop">
